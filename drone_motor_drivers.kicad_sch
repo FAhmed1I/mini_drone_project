@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "71f2ccab-a415-4480-b7c6-749c3940aaa7")
+	(paper "A4")
+	(lib_symbols)
+	(text "CSD17381F4 & MCT8329A Combo\nOR\nMCT8316A1VRGFR"
+		(exclude_from_sim no)
+		(at 133.604 174.752 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "3d7d3e4a-98c6-4cda-8fe1-066d3ee251eb")
+	)
+)
