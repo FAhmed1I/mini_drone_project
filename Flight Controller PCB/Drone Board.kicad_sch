@@ -15,6 +15,12 @@
 		)
 		(uuid "caa8c9cc-ad99-498e-be19-2ce5ebb2749f")
 	)
+	(junction
+		(at 73.66 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "204f8a61-328b-4c5a-8089-32f4b3e0948d")
+	)
 	(wire
 		(pts
 			(xy 121.92 77.47) (xy 127 77.47)
@@ -24,6 +30,16 @@
 			(type default)
 		)
 		(uuid "0ee5c7ef-a708-457f-bbfb-f6cc53cadfe6")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c83dcdf-378d-430b-a229-15bd61cd4889")
 	)
 	(wire
 		(pts
@@ -47,13 +63,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 40.64) (xy 81.28 40.64)
+			(xy 67.31 40.64) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "545dd9ee-c817-4184-aaf8-ae6349da22e9")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a64abd0-cc77-4814-97b8-2eeda3a050ee")
 	)
 	(wire
 		(pts
@@ -77,6 +103,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6139228-c607-4a25-a501-3a85097d5130")
+	)
+	(wire
+		(pts
 			(xy 121.92 74.93) (xy 127 74.93)
 		)
 		(stroke
@@ -86,18 +122,7 @@
 		(uuid "adf9c0d4-9ddf-4187-b2a5-c548107ecdb7")
 	)
 	(hierarchical_label "VBATT"
-		(shape input)
-		(at 67.31 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25e8afd4-600b-4cbf-8137-64123686fa26")
-	)
-	(hierarchical_label "VBATT"
-		(shape input)
+		(shape output)
 		(at 81.28 40.64 0)
 		(effects
 			(font
@@ -143,6 +168,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBATT" output
+			(at 67.31 40.64 0)
+			(uuid "0b37dd6f-323e-41e8-ab5c-2624301233e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -412,8 +447,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 99.06)
-		(size 40.64 25.4)
+		(at 35.56 68.58)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -428,7 +463,7 @@
 		)
 		(uuid "aafd840f-7f0b-4e52-97ce-cbbaf780ab53")
 		(property "Sheetname" "Motor Drivers"
-			(at 81.28 98.3484 0)
+			(at 35.56 67.8684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -439,7 +474,7 @@
 			)
 		)
 		(property "Sheetfile" "drone_motor_drivers.kicad_sch"
-			(at 81.28 125.0446 0)
+			(at 35.56 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -447,6 +482,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBATT" input
+			(at 67.31 73.66 0)
+			(uuid "03a7f113-4374-4924-80a9-f2b56a235d04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT" input
+			(at 67.31 73.66 0)
+			(uuid "dc57923f-2d5c-43ac-affb-89827bd58a55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

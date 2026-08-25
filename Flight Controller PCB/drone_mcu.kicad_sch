@@ -3372,6 +3372,12 @@
 		(uuid "60c504a5-0c11-4718-8668-9fed68dabbfc")
 	)
 	(junction
+		(at 245.11 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "658c2436-0649-4549-9904-4ae7fda426da")
+	)
+	(junction
 		(at 63.5 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3505,6 +3511,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eaae477-4ca2-48e2-a72c-a935607e38c1")
+	)
+	(wire
+		(pts
 			(xy 63.5 171.45) (xy 63.5 172.72)
 		)
 		(stroke
@@ -3512,6 +3528,16 @@
 			(type default)
 		)
 		(uuid "16f86f3e-b6ea-4433-bcdc-6eb19a98e0ac")
+	)
+	(wire
+		(pts
+			(xy 248.92 60.96) (xy 233.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170ebd66-66d9-4deb-b72c-804d44d17baa")
 	)
 	(wire
 		(pts
@@ -3532,6 +3558,16 @@
 			(type default)
 		)
 		(uuid "1a57b759-57d5-416f-b0ea-f52392b200af")
+	)
+	(wire
+		(pts
+			(xy 233.68 55.88) (xy 245.11 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1fc4fc-c46f-4b60-819c-836063cec55f")
 	)
 	(wire
 		(pts
@@ -3582,6 +3618,16 @@
 			(type default)
 		)
 		(uuid "21d16d50-9f81-47bc-ad7d-0ea3828e050c")
+	)
+	(wire
+		(pts
+			(xy 248.92 63.5) (xy 233.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cc8536-2160-4e59-889b-ab049ce9dc23")
 	)
 	(wire
 		(pts
@@ -3642,6 +3688,16 @@
 			(type default)
 		)
 		(uuid "35bb0cc3-4d0d-4f7d-837f-ff6c94169ecf")
+	)
+	(wire
+		(pts
+			(xy 248.92 55.88) (xy 245.11 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3759055e-f422-49f6-9f68-5e176a0cf84c")
 	)
 	(wire
 		(pts
@@ -4045,6 +4101,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 54.61) (xy 245.11 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b179684a-bd59-4744-878c-7dca538e6b2e")
+	)
+	(wire
+		(pts
 			(xy 189.23 111.76) (xy 198.12 111.76)
 		)
 		(stroke
@@ -4282,6 +4348,16 @@
 			(type default)
 		)
 		(uuid "dc762771-8846-479e-9494-860ad72edd9b")
+	)
+	(wire
+		(pts
+			(xy 245.11 45.72) (xy 245.11 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2395d1-d361-403e-9636-4132b8659dd4")
 	)
 	(wire
 		(pts
@@ -4525,7 +4601,7 @@
 	)
 	(hierarchical_label "IMU_SCK"
 		(shape output)
-		(at 233.68 58.42 0)
+		(at 248.92 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4558,7 +4634,7 @@
 	)
 	(hierarchical_label "IMU_CS"
 		(shape output)
-		(at 233.68 55.88 0)
+		(at 248.92 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4569,7 +4645,7 @@
 	)
 	(hierarchical_label "IMU_MOSI"
 		(shape output)
-		(at 233.68 63.5 0)
+		(at 248.92 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4580,7 +4656,7 @@
 	)
 	(hierarchical_label "IMU_MISO"
 		(shape input)
-		(at 233.68 60.96 0)
+		(at 248.92 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,6 +5136,87 @@
 			(project "Drone Board"
 				(path "/11d338fc-6b4d-4a31-a103-caeefef24b64/8be55338-8553-4645-bbc6-3c82c168951e"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 245.11 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c067dca-37b9-4c8b-a22e-7ab856a7ed7a")
+		(property "Reference" "R16"
+			(at 246.634 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 246.634 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 244.094 50.546 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16c21008-6b1b-42b6-95e3-bdcdc9d1ca52")
+		)
+		(pin "2"
+			(uuid "56ac5438-b7e4-4b49-bdda-7fe9056bb1be")
+		)
+		(instances
+			(project "Drone Board"
+				(path "/11d338fc-6b4d-4a31-a103-caeefef24b64/8be55338-8553-4645-bbc6-3c82c168951e"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7258,6 +7415,84 @@
 			(project "Drone Board"
 				(path "/11d338fc-6b4d-4a31-a103-caeefef24b64/8be55338-8553-4645-bbc6-3c82c168951e"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 245.11 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d89d3ee6-4f11-4e06-8604-40bdf1a302f9")
+		(property "Reference" "#PWR051"
+			(at 245.11 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 245.11 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 245.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b7d5504-920e-4472-b422-dad45db115cb")
+		)
+		(instances
+			(project "Drone Board"
+				(path "/11d338fc-6b4d-4a31-a103-caeefef24b64/8be55338-8553-4645-bbc6-3c82c168951e"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

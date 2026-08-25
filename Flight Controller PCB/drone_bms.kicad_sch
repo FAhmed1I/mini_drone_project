@@ -2933,7 +2933,7 @@
 		(uuid "6b65cee2-76c0-4815-96bd-76497dbf5d67")
 	)
 	(hierarchical_label "VBATT"
-		(shape input)
+		(shape output)
 		(at 213.36 30.48 0)
 		(effects
 			(font

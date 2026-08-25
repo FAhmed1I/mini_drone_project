@@ -906,10 +906,493 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:Earth"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 118.11 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14d91461-c69a-47f3-aee9-bb74ecbcbc86")
+	)
+	(junction
+		(at 118.11 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c3a98d6-5168-4a7f-8f3d-60cd054bf301")
+	)
+	(junction
+		(at 118.11 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bbfa32d-c73b-4ea2-b55e-3fdd39cf4c16")
+	)
+	(junction
+		(at 213.36 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baf9b3e8-a5bd-410b-b25a-501912470ecd")
+	)
+	(junction
+		(at 59.69 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb2b8ee8-a0f0-47ee-ab77-df2f1ca867b7")
+	)
+	(junction
+		(at 213.36 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9527d0-476e-427b-8596-7734f54b776d")
+	)
+	(junction
+		(at 59.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3cdebaf-530e-4691-93fa-30ad8bcda823")
+	)
+	(wire
+		(pts
+			(xy 118.11 127) (xy 118.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0240864a-11e9-4ddb-923a-84579d4a70b3")
+	)
+	(wire
+		(pts
+			(xy 58.42 35.56) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380b232e-e388-4842-a029-94b70369b945")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e32f92a-8b77-4ede-814d-b09367856952")
+	)
+	(wire
+		(pts
+			(xy 118.11 129.54) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e633efa-f08c-482a-a72b-c78e3782d4ad")
+	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 118.11 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d312ed9-8e75-47b5-b13f-8bee4a1a5b7d")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6782215b-967d-4011-8d95-3732c6c98104")
+	)
+	(wire
+		(pts
+			(xy 114.3 129.54) (xy 118.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c4b65b-9640-4fc4-97d3-40d08141ab46")
+	)
+	(wire
+		(pts
+			(xy 213.36 25.4) (xy 213.36 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79be6424-9944-4cf6-bb6c-7a4de3d6c006")
+	)
+	(wire
+		(pts
+			(xy 212.09 22.86) (xy 213.36 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f6ced4f-5524-4f05-b38b-b802640ab0d0")
+	)
+	(wire
+		(pts
+			(xy 114.3 137.16) (xy 118.11 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff5fc1a-a1ca-4e34-ab5f-3659e3656c31")
+	)
+	(wire
+		(pts
+			(xy 213.36 22.86) (xy 213.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95adf9c1-3324-4e6c-962b-28e0a9242f38")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f265a7-68a2-45f7-93cf-dba1d57500cb")
+	)
+	(wire
+		(pts
+			(xy 59.69 40.64) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a787c5db-4b63-4235-bdf4-6e8f079ed36d")
+	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 118.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a927415e-5fcd-4f44-b2ad-0555ec236559")
+	)
+	(wire
+		(pts
+			(xy 213.36 22.86) (xy 217.17 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab585dcd-a788-41b2-b2e3-bdba37488359")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 59.69 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afab2520-3de5-43ec-a7ae-dbbbacb2c803")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 63.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bee681-738b-4b11-b613-86fc2e70bc41")
+	)
+	(wire
+		(pts
+			(xy 213.36 25.4) (xy 217.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0d29e7-2804-49f6-a7b9-48cb37e11ada")
+	)
+	(wire
+		(pts
+			(xy 213.36 27.94) (xy 217.17 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9296767-8c0f-441c-a31e-3d278af830ae")
+	)
+	(hierarchical_label "VBATT"
+		(shape input)
+		(at 212.09 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "086476f9-4e83-4ce0-a0bf-2651ef590690")
+	)
+	(hierarchical_label "VBATT"
+		(shape input)
+		(at 58.42 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd43c902-e490-490b-98f8-0004026157e3")
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 118.11 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d03dba4-a172-49b0-8f65-bebcf7d101ae")
+		(property "Reference" "#PWR050"
+			(at 118.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 118.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aad9c0fe-87ec-4025-a9da-aaa80cdcc118")
+		)
+		(instances
+			(project "Drone Board"
+				(path "/11d338fc-6b4d-4a31-a103-caeefef24b64/aafd840f-7f0b-4e52-97ce-cbbaf780ab53"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Drone_sym:MCF8316A1VRGFR")
-		(at 26.67 29.21 0)
+		(at 63.5 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -920,7 +1403,7 @@
 		(fields_autoplaced yes)
 		(uuid "55322210-fe98-48b0-82bb-35ce9a2b46ad")
 		(property "Reference" "U7"
-			(at 52.07 19.05 0)
+			(at 88.9 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -930,7 +1413,7 @@
 			)
 		)
 		(property "Value" "MCF8316A1VRGFR"
-			(at 52.07 21.59 0)
+			(at 88.9 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -940,7 +1423,7 @@
 			)
 		)
 		(property "Footprint" "RGF0040E-IPC_A"
-			(at 26.67 29.21 0)
+			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -952,7 +1435,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/mcf8316a"
-			(at 26.67 29.21 0)
+			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -964,7 +1447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 29.21 0)
+			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1108,7 +1591,7 @@
 	)
 	(symbol
 		(lib_id "Drone_sym:MCF8316A1VRGFR")
-		(at 99.06 30.48 0)
+		(at 217.17 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1119,7 +1602,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae59467b-b25a-41aa-b1d4-0247e3dd9703")
 		(property "Reference" "U8"
-			(at 124.46 20.32 0)
+			(at 242.57 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1129,7 +1612,7 @@
 			)
 		)
 		(property "Value" "MCF8316A1VRGFR"
-			(at 124.46 22.86 0)
+			(at 242.57 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1139,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" "RGF0040E-IPC_A"
-			(at 99.06 30.48 0)
+			(at 217.17 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1151,7 +1634,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/mcf8316a"
-			(at 99.06 30.48 0)
+			(at 217.17 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1163,7 +1646,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 30.48 0)
+			(at 217.17 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
