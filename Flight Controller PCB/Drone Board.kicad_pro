@@ -596,6 +596,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -646,7 +652,7 @@
         "uuid": "11d338fc-6b4d-4a31-a103-caeefef24b64"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR18,#PWR48-49,J2,R9,R14-15,U7-8",
     "variants": []
   },
   "sheets": [
