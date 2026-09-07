@@ -1,2 +1,7 @@
 *.lck
 production/
+Flight Controller PCB/an4488-getting-started-with-stm32f4xxxx-mcu-hardware-development-stmicroelectronics.pdf
+Flight Controller PCB/how-to-import.htm
+Flight Controller PCB/License.txt
+Flight Controller PCB/Drone Board-backups
+Flight Controlelr PCB/*.bak

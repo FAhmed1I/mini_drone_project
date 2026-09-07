@@ -1738,6 +1738,18 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 7.62 17.78)
+					(end 57.15 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
 				(polyline
 					(pts
 						(xy 7.62 -15.24) (xy 57.15 -15.24)
@@ -1747,7 +1759,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 				(polyline
@@ -1759,7 +1772,8 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 				(polyline

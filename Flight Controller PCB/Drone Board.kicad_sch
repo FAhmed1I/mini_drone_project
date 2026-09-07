@@ -16,10 +16,10 @@
 		(uuid "caa8c9cc-ad99-498e-be19-2ce5ebb2749f")
 	)
 	(junction
-		(at 73.66 40.64)
+		(at 73.66 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "204f8a61-328b-4c5a-8089-32f4b3e0948d")
+		(uuid "4742d17b-62a8-4f32-a5d2-072f7dc4a9a4")
 	)
 	(wire
 		(pts
@@ -73,16 +73,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 40.64) (xy 81.28 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a64abd0-cc77-4814-97b8-2eeda3a050ee")
-	)
-	(wire
-		(pts
 			(xy 121.92 72.39) (xy 127 72.39)
 		)
 		(stroke
@@ -113,6 +103,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 105.41) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad87e6be-5286-449c-8f27-0f83a1a6dbbc")
+	)
+	(wire
+		(pts
 			(xy 121.92 74.93) (xy 127 74.93)
 		)
 		(stroke
@@ -121,16 +121,15 @@
 		)
 		(uuid "adf9c0d4-9ddf-4187-b2a5-c548107ecdb7")
 	)
-	(hierarchical_label "VBATT"
-		(shape output)
-		(at 81.28 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 67.31 105.41) (xy 73.66 105.41)
 		)
-		(uuid "e7412e88-bde0-4448-a52d-b4516c79a4f2")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e3a962-562d-4f5e-a101-39ab0fc87b38")
 	)
 	(sheet
 		(at 35.56 35.56)
@@ -401,8 +400,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 35.56)
-		(size 39.37 25.4)
+		(at 35.56 100.33)
+		(size 31.75 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -417,7 +416,7 @@
 		)
 		(uuid "9becbaae-253d-4a3f-b59a-f808893cf842")
 		(property "Sheetname" "Converters"
-			(at 81.28 34.8484 0)
+			(at 35.56 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -428,7 +427,7 @@
 			)
 		)
 		(property "Sheetfile" "drone_converters.kicad_sch"
-			(at 81.28 61.5446 0)
+			(at 35.56 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -436,6 +435,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBATT" input
+			(at 67.31 105.41 0)
+			(uuid "ef2d6728-47a0-4638-bba5-ce99b763306f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
