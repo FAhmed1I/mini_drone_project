@@ -23,13 +23,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 127 77.47)
+			(xy 67.31 123.19) (xy 77.47 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ee5c7ef-a708-457f-bbfb-f6cc53cadfe6")
+		(uuid "0eec220a-5ceb-4d8e-81f9-31c8ed504881")
 	)
 	(wire
 		(pts
@@ -43,23 +43,33 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 69.85) (xy 127 69.85)
+			(xy 67.31 111.76) (xy 77.47 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d9c8d70-32f1-4aad-8940-e562df58e6e1")
+		(uuid "4909e859-17f1-4119-b383-2b881bbe7039")
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 127 85.09)
+			(xy 67.31 120.65) (xy 77.47 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "528dbbc7-e40d-4453-a316-8b8dc16340cf")
+		(uuid "4b1d2504-579c-4edd-8b97-b284a3f53ceb")
+	)
+	(wire
+		(pts
+			(xy 67.31 115.57) (xy 77.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb614df-22a6-4d26-8941-c09daad6a327")
 	)
 	(wire
 		(pts
@@ -73,23 +83,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 127 72.39)
+			(xy 67.31 109.22) (xy 77.47 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1594dff-938b-4a8d-9706-8d1397fd4706")
+		(uuid "6b1b4697-eeed-4661-bd0a-93504cf072bf")
 	)
 	(wire
 		(pts
-			(xy 121.92 82.55) (xy 127 82.55)
+			(xy 67.31 118.11) (xy 77.47 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a36635c1-4276-467a-ba5f-b1800761d9b6")
+		(uuid "98f1f31a-43c2-4afb-99f0-bb40ecd09421")
 	)
 	(wire
 		(pts
@@ -110,16 +120,6 @@
 			(type default)
 		)
 		(uuid "ad87e6be-5286-449c-8f27-0f83a1a6dbbc")
-	)
-	(wire
-		(pts
-			(xy 121.92 74.93) (xy 127 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf9c0d4-9ddf-4187-b2a5-c548107ecdb7")
 	)
 	(wire
 		(pts
@@ -188,114 +188,8 @@
 		)
 	)
 	(sheet
-		(at 127 67.31)
-		(size 40.64 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "5cf0382e-dfcd-46af-9dfa-a4cb912cf404")
-		(property "Sheetname" "Sensors"
-			(at 127 66.5984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "drone_sensors.kicad_sch"
-			(at 127 93.2946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "BMP_SDA" bidirectional
-			(at 127 85.09 180)
-			(uuid "6e186c2b-411d-48a0-bee3-713d0c541c05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BMP_SCL" input
-			(at 127 82.55 180)
-			(uuid "39366703-afe5-4d56-aaff-ef5e2aee2843")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMU_CS" input
-			(at 127 69.85 180)
-			(uuid "43e6563c-f631-4193-a29b-36e6d4d9a655")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMU_MISO" output
-			(at 127 74.93 180)
-			(uuid "8269dc38-64c6-4f58-8045-03cd7620a5ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMU_SCK" input
-			(at 127 77.47 180)
-			(uuid "eab42312-5e6e-45d0-b3c9-3fb4f34d30d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IMU_MOSI" input
-			(at 127 72.39 180)
-			(uuid "cb190960-a75d-4269-b10a-6b4dd0eb48a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Drone Board"
-				(path "/11d338fc-6b4d-4a31-a103-caeefef24b64"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 81.28 67.31)
-		(size 40.64 25.4)
+		(at 77.47 68.58)
+		(size 40.64 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -310,7 +204,7 @@
 		)
 		(uuid "8be55338-8553-4645-bbc6-3c82c168951e")
 		(property "Sheetname" "MCU"
-			(at 81.28 66.5984 0)
+			(at 77.47 67.8684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -321,7 +215,7 @@
 			)
 		)
 		(property "Sheetfile" "drone_mcu.kicad_sch"
-			(at 81.28 93.2946 0)
+			(at 77.47 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -332,63 +226,63 @@
 			)
 		)
 		(pin "BMP_SCL" output
-			(at 121.92 82.55 0)
+			(at 77.47 109.22 180)
 			(uuid "0c0616fb-7af1-464c-bac4-2a06e3d0a617")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "BMP_SDA" bidirectional
-			(at 121.92 85.09 0)
+			(at 77.47 111.76 180)
 			(uuid "101e298e-ff2e-4264-9142-d9c3f5d0e16c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IMU_SCK" output
-			(at 121.92 77.47 0)
+			(at 77.47 123.19 180)
 			(uuid "1d382a49-8f1e-4b8d-92d4-30e231e3fb30")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IMU_CS" output
-			(at 121.92 69.85 0)
+			(at 77.47 115.57 180)
 			(uuid "1d0cde27-307c-45f9-9e68-6ce494d60520")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IMU_MOSI" output
-			(at 121.92 72.39 0)
+			(at 77.47 120.65 180)
 			(uuid "c72c10cc-f31d-4c2c-b116-09add653b591")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IMU_MISO" input
-			(at 121.92 74.93 0)
+			(at 77.47 118.11 180)
 			(uuid "ecc7a607-7d30-46c7-8c1d-694c09a69a6f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -401,12 +295,11 @@
 	)
 	(sheet
 		(at 35.56 100.33)
-		(size 31.75 25.4)
+		(size 31.75 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -415,7 +308,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "9becbaae-253d-4a3f-b59a-f808893cf842")
-		(property "Sheetname" "Converters"
+		(property "Sheetname" "Converters & Sensors"
 			(at 35.56 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -427,7 +320,7 @@
 			)
 		)
 		(property "Sheetfile" "drone_converters.kicad_sch"
-			(at 35.56 126.3146 0)
+			(at 35.306 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -440,6 +333,66 @@
 		(pin "VBATT" input
 			(at 67.31 105.41 0)
 			(uuid "ef2d6728-47a0-4638-bba5-ce99b763306f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_SCK" input
+			(at 67.31 123.19 0)
+			(uuid "c5add827-d8ea-4804-a4a4-9120446260cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_MISO" output
+			(at 67.31 118.11 0)
+			(uuid "75fb996e-5a01-4b62-a953-1dfdcc7d0535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_MOSI" input
+			(at 67.31 120.65 0)
+			(uuid "80874176-c9e2-4064-9c25-b0aa8e231927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 67.31 115.57 0)
+			(uuid "d8510d60-c978-456b-bea4-81afdd2b8a1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMP_SDA" bidirectional
+			(at 67.31 111.76 0)
+			(uuid "be93d38f-18a6-482f-b619-f2532e45bdd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMP_SCL" input
+			(at 67.31 109.22 0)
+			(uuid "868f486f-2e11-4c2d-88ad-73cef8e9bd40")
 			(effects
 				(font
 					(size 1.27 1.27)

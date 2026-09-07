@@ -652,7 +652,7 @@
         "uuid": "11d338fc-6b4d-4a31-a103-caeefef24b64"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C14,C18-20,C28-32,L3,#PWR8,#PWR14-15,#PWR19,#PWR28-36,#PWR58-65,R9-11,R19-20,U3-4,U10",
     "variants": []
   },
   "sheets": [
@@ -666,15 +666,11 @@
     ],
     [
       "9becbaae-253d-4a3f-b59a-f808893cf842",
-      "Converters"
+      "Converters & Sensors"
     ],
     [
       "8be55338-8553-4645-bbc6-3c82c168951e",
       "MCU"
-    ],
-    [
-      "5cf0382e-dfcd-46af-9dfa-a4cb912cf404",
-      "Sensors"
     ],
     [
       "aafd840f-7f0b-4e52-97ce-cbbaf780ab53",
