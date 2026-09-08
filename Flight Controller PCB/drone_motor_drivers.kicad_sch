@@ -1077,7 +1077,7 @@
 		(uuid "8bbfa32d-c73b-4ea2-b55e-3fdd39cf4c16")
 	)
 	(junction
-		(at 213.36 22.86)
+		(at 156.21 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf9b3e8-a5bd-410b-b25a-501912470ecd")
@@ -1089,7 +1089,7 @@
 		(uuid "bb2b8ee8-a0f0-47ee-ab77-df2f1ca867b7")
 	)
 	(junction
-		(at 213.36 25.4)
+		(at 156.21 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca9527d0-476e-427b-8596-7734f54b776d")
@@ -1172,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 25.4) (xy 213.36 27.94)
+			(xy 156.21 39.37) (xy 156.21 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1182,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 22.86) (xy 213.36 22.86)
+			(xy 154.94 36.83) (xy 156.21 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 22.86) (xy 213.36 25.4)
+			(xy 156.21 36.83) (xy 156.21 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1242,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 22.86) (xy 217.17 22.86)
+			(xy 156.21 36.83) (xy 160.02 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1272,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 25.4) (xy 217.17 25.4)
+			(xy 156.21 39.37) (xy 160.02 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1282,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 27.94) (xy 217.17 27.94)
+			(xy 156.21 41.91) (xy 160.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1292,7 @@
 	)
 	(hierarchical_label "VBATT"
 		(shape input)
-		(at 212.09 22.86 180)
+		(at 154.94 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1591,7 +1591,7 @@
 	)
 	(symbol
 		(lib_id "Drone_sym:MCF8316A1VRGFR")
-		(at 217.17 22.86 0)
+		(at 160.02 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1602,7 +1602,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae59467b-b25a-41aa-b1d4-0247e3dd9703")
 		(property "Reference" "U8"
-			(at 242.57 12.7 0)
+			(at 185.42 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1612,7 +1612,7 @@
 			)
 		)
 		(property "Value" "MCF8316A1VRGFR"
-			(at 242.57 15.24 0)
+			(at 185.42 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1622,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" "RGF0040E-IPC_A"
-			(at 217.17 22.86 0)
+			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1634,7 +1634,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/mcf8316a"
-			(at 217.17 22.86 0)
+			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1646,7 +1646,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 22.86 0)
+			(at 160.02 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

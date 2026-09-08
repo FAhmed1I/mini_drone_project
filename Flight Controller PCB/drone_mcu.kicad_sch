@@ -3034,7 +3034,7 @@
 		)
 	)
 	(rectangle
-		(start 14.478 22.098)
+		(start 13.97 22.098)
 		(end 81.28 69.088)
 		(stroke
 			(width 0)
@@ -4227,6 +4227,16 @@
 		)
 		(uuid "fea6fdf2-982a-47d8-9429-0dd5b9d6536d")
 	)
+	(label "CRYS_1"
+		(at 186.69 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "017d6c79-ea5f-42d4-ab97-f1ea0d6a30b5")
+	)
 	(label "SWCLK"
 		(at 241.3 81.28 180)
 		(effects
@@ -4236,6 +4246,16 @@
 			(justify right bottom)
 		)
 		(uuid "345cba35-dff3-4457-a6c8-ede5c0061b5d")
+	)
+	(label "VCAP1"
+		(at 189.23 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fd0227d-ba4c-4926-b6af-cf033426e91c")
 	)
 	(label "SWDIO"
 		(at 241.3 78.74 180)
@@ -4296,6 +4316,16 @@
 			(justify left bottom)
 		)
 		(uuid "b5db17a0-c829-4c7a-a3cb-144017c0ffe9")
+	)
+	(label "CRYS_2"
+		(at 186.69 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d55a54c6-5402-4439-a665-4d90ed65dfde")
 	)
 	(label "RESET"
 		(at 78.74 90.17 180)
